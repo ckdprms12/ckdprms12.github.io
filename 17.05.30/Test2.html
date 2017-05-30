@@ -1,0 +1,20 @@
+<!DOCTYPE html> <!-- P96Test.html -->
+<html>
+<body>
+<section>
+<script>
+var score = window.prompt("점수 입력: "); //화면 점수 입력
+score = parseFloat(score);                //문자를 숫자로 변경
+var grade=undefined;
+if(score >= 90){                          //조건(점수가 90이상)이 true이면 수행
+   grade = "A";
+}else if(score >= 80){                     // 조건(점수가 80이상)이 true이면 수행
+   grade = "B";
+}else if(score >= 70){                     // 조건(점수가 70이상)이 true이면 수행
+   grade = "C";
+}else{                                     //위 3조건이 아니면 수행
+   grade = "F";
+}
+document.write("grade=",grade, "<br/>");
+</script></section>
+</body></html>
