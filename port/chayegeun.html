@@ -3,7 +3,10 @@
 <html><head>
 <meta charset="utf-8"/><meta name="viewport"content="width=device-width, initial-scale=1"/>
 <link rel="stylesheet"href="https://ckdprms12.github.io/rwd4.css"/>
-
+<script>
+   function event1onclick(){   document.getElementById("id_1").innerHTML
+   ="1학년때는 무작정 좋은 직장이라는 그냥 평범하면서도 구체적이지 않은 미래를 바라보고 하루하루를 보냈습니다. 그러다 군복무를 마치고 그토록 다시 오고 싶었던 학교를 복학하고 1학년때 배운 것 마저도 다 잊어버려서 기초도 모자라기 때문에 방학에 학교에서 배울 자바와 개인적인 전공 공부 및 진로탐색을 하겠습니다.<br/>";}
+</script>
 <title>20141523 차예근 포트폴리오</title></head>
  <body onLoad="goforit()">
 <script>
@@ -66,7 +69,8 @@ setInterval("getthedate()",1000)
   <div class="row"></div>
 <div id="main"></div>
 <nav class="col-3 col-m-3 menu"> <!-- 메뉴 -->
-<ul><li><a href="https://ckdprms12.github.io/port/chayegeun.html">자기소개</a></li><li><a href="https://ckdprms12.github.io/port/timetable.html">수업수강내용</a></li><li><a href="https://ckdprms12.github.io/port/Unipeace.html">동아리</a></li><li>앞으로의 계획</li></ul>
+<ul><li><a href="https://ckdprms12.github.io/port/chayegeun.html">자기소개</a></li><li><a href="https://ckdprms12.github.io/port/timetable.html">수업수강내용</a></li><li><a href="https://ckdprms12.github.io/port/Unipeace.html">동아리</a></li><li onclick="event4onclick()">앞으로의 계획</li></ul>
+ <p id="id_1">미래설계</p>
  </nav>
  
 <section class="col-6 col-m-9">
