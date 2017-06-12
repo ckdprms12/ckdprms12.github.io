@@ -10,6 +10,7 @@
 table, tr, th, td{
   border:1px solid black;   border-collapse:separate;
 }
+background:#B7F0B1;
 /*for mobile*/
 [class*="col-"] {width: 100%;}
 @media only screen and (min-width: 600px){ /*For tablets:*/
